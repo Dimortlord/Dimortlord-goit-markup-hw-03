@@ -121,12 +121,12 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .section-feature-text {
     color: var(--primary-text-color)
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
@@ -167,9 +167,8 @@ a {
 
 .section-team-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 /*----------------------------Footer----------------------------------------*/
@@ -191,6 +190,7 @@ a {
 
 
 .section-network-maps {
+    font-style: normal;
     color: var(--primary-backgroung-color);
     font-weight: 400;
     font-size: 14px;
@@ -223,7 +223,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -236,6 +236,7 @@ a {
 
 
 .section-button-main {
+    font-family: inherit;
     background: var(--secondary-background-color);
     color: var(--title-text-color);
     font-style: normal;
@@ -258,18 +259,18 @@ a {
     letter-spacing: 0.03em;
 }
 
-.section-work-title {
+.section-work-type {
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    text-align: left;
     letter-spacing: 0.06em;
 }
 
 .section-work-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,87;
     letter-spacing: 0.03em;
