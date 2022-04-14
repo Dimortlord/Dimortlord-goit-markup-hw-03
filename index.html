@@ -12,18 +12,18 @@
 <body class="body">
     <header class="header">
         <div class="container">
-            <nav>
+            <nav class="nav-main celector">
                 <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
                     <ul class="site-nav"> 
                         <li><a href="index.html" class="link current">Студия</a></li>
                         <li><a href="portfolio.html" class="link">Портфолио</a></li>
                         <li><a href="#" class="link">Контакты</a></li>
                     </ul>
-           </nav>
                 <ul class="section-info">
                     <li><a class="section-info-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="section-info-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
+            </nav>
         </div>
     </header>
     <main> 
@@ -63,10 +63,10 @@
                         <li class="section-work-item">
                             <img src="./image/img.jpg" alt="Програмируем" width="370"/>
                         </li>
-                        <li>
+                        <li class="section-work-item">
                             <img src="./image/img1.jpg" alt="Находим информацию" width="370"/>
                         </li>
-                        <li>
+                        <li class="section-work-item">
                             <img src="./image/img2.jpg" alt="Моделируем" width="370"/>
                         </li>
                     </ul>
@@ -78,33 +78,41 @@
                     <ul class="section-team-list">
                         <li class="section-team-item">
                             <img src="./image/ihor.jpg" width="270" alt="Ihor"/>
-                            <h3 class="section-team-title">Игорь Демьяненко</h3>
-                            <p class="section-team-text">Product Designer</p>
-                        </li>
+                                <div class="section-team-cards">
+                                    <h3 class="section-team-title">Игорь Демьяненко</h3>
+                                    <p class="section-team-text">Product Designer</p>
+                                </div>
+                             </li>   
                         <li class="section-team-item">
                             <img src="./image/olha.jpg" width="270" alt="Olha"/>
-                            <h3 class="section-team-title">Ольга Репина</h3>
-                            <p class="section-team-text">Frontend Developer</p>
-                        </li>
+                                <div class="section-team-cards">
+                                    <h3 class="section-team-title">Ольга Репина</h3>
+                                    <p class="section-team-text">Frontend Developer</p>
+                                </div>
+                            </li>
                         <li class="section-team-item">
-                            <img src="./image/nikolay.jpg" width="270" alt="Nikolay"/>
-                            <h3 class="section-team-title">Николай Тарасов</h3>
-                            <p class="section-team-text">Marketing</p>
-                        </li>
+                                <img src="./image/nikolay.jpg" width="270" alt="Nikolay"/>
+                                <div class="section-team-cards">
+                                    <h3 class="section-team-title">Николай Тарасов</h3>
+                                    <p class="section-team-text">Marketing</p>
+                                </div>
+                            </li>
                         <li class="section-team-item">
-                            <img src="./image/michael.jpg" width="270" alt="Michael"/>
-                            <h3 class="section-team-title">Михаил Ермаков</h3>
-                            <p class="section-team-text">UI Designer</p>
-                        </li>
-                    </ul>
-            </div>
-        </section>
-    </main>
+                                <img src="./image/michael.jpg" width="270" alt="Michael"/>
+                                <div class="section-team-cards">
+                                    <h3 class="section-team-title">Михаил Ермаков</h3>
+                                    <p class="section-team-text">UI Designer</p>
+                                </div>
+                            </li>
+                        </ul>
+                 </div>
+            </section>
+        </main>
 </body>
 
 <footer class="section-network">
-    <div class="container">
-        <a class="logo-white" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+    <div class="secondary-network container">
+        <a class="logo-white special" href="./index.html"><span class="logo-web special">Web</span>Studio</a>
             <address class="section-network-adress">            
                 <ul class="section-network-list">
                     <li class="section-network-item">

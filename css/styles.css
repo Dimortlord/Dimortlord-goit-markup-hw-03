@@ -24,8 +24,24 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     padding: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* ------------------------------Шапка Сайта---------------------------------  */
 
+
+/* -----------------------------Header--------------------------------------*/
+
+
+
+.header {
+    outline: 2px red;
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
 
 
 .container {
@@ -34,9 +50,13 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     margin-left: auto;
     margin-right: auto;
     outline: 2px dashed #f44336;
+    
 }
 
 .logo {
+
+    margin-right: 93px;
+
     font-family: "Raleway";
     color: #000000;
     font-style: normal;
@@ -44,10 +64,13 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
     
 }
 
 .logo-web {
+    
+
     color: var(--accent-color);
     font-style: normal;
     font-weight: 700;
@@ -56,17 +79,38 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.03em;
     
 }
+.celector {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+
+    display: flex;
+}
+
+.section-info {
+    display: flex;
+    
+}
+
 
 
 .site-nav .link {
+
+    margin-right: 50px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height:1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-logo-color);
+ 
     
 }
+
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -78,7 +122,13 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     color: var(--accent-color);
 }
 
+.section-info {
+    
+    margin-left: auto;
+}
+
 .section-info-mail {
+
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 500;
@@ -92,6 +142,8 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
 }
 
 .section-info-number {
+    
+    margin-left: 50px;
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 500;
@@ -110,7 +162,11 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
 /*--------------------Main--------------------------------------------*/
 
 .main {
+
+    padding-top: 200px;
     background-color: var(--tertriary-background-color);
+    text-align: center;
+    padding-bottom: 240px;
 }
 
 .button {
@@ -127,13 +183,51 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
 }
 
 .main-title {
+
+    margin-bottom: 30px;
+
     color: var(--primary-backgroung-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
-    
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-features {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.section-feature-list {
+    display: flex;
+    margin-top: 91px;
+}
+
+.section-feature-item {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.section-feature-item:last-child {
+    margin-right: 0;
+}
+
 .section-feature-title {
+
+    margin-bottom: 10px;    
+
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -144,14 +238,27 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
 }
 
 .section-feature-text {
-    color: var(--primary-text-color)
+
+   
+
+    color: var(--primary-text-color);
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+/*----------------------------------------Section Work------------------*/
     
+.section-work {
+    padding-bottom: 94px;
+    
+}
+
 .section-work-title {
+
+    margin-bottom: 50px;
+
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -160,12 +267,33 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+.section-work-list {
+    display: flex;
+}
+
+.section-work-item {
+    margin-right: 30px;
+}
+
+.section-work-item:last-child{
+    margin-right: 0;
+}
+
+
+
+/*----------------------------------SectionTeam---------------------*/
+
+
 
 .section-team {
     background-color: var(--secondary-background-color);
+    padding-bottom: 94px;
 }
 
 .section-team-titlemain {
+    padding-top: 94px;
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -173,6 +301,30 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.section-team-list {
+    display: flex;
+
+    
+
+}
+
+
+.section-team-item{
+    margin-right: 30px;
+
+    background-color: var(--primary-backgroung-color);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-team-item:last-child{
+    margin-right: 0;
+}
+
+.section-team-cards{
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 
 .section-team-title {
@@ -182,6 +334,7 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .section-team-text {
@@ -189,8 +342,20 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 /*----------------------------Footer----------------------------------------*/
+
+
+
+.logo-white {
+    display: block;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
 
 .logo-white {
     font-family: "Raleway";
@@ -207,6 +372,10 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     background: var(--tertriary-background-color);
 }
 
+.section-network-list {
+    margin-bottom: 9px;
+    padding-bottom: 60px;
+}
 
 .section-network-maps {
     font-style: normal;
@@ -251,7 +420,27 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     color: var(--accent-color);
 }
 
-/*---------------------Портфолио----------------------------------**/
+
+
+
+
+
+
+/*---------------------Портфолио----------------------------------*/
+
+/*---------------------Section-buttoon----------------------------*/
+
+
+.section-button-list {
+    display: flex;
+    justify-content:center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.section-button-main {
+    margin-right: 8px;
+}
 
 
 .section-button-main {
@@ -264,6 +453,8 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    border-radius: 4px;
+    
 }
 
 
@@ -278,7 +469,50 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.03em;
 }
 
-.section-work-type {
+
+
+/*-------------------------------Section-work-------------------*/
+
+.section-information-list {
+    display: flex;
+    flex-wrap: wrap;
+ 
+   
+ 
+
+   
+ 
+}
+
+
+
+
+
+
+.section-information-item {
+flex-basis: calc((100% - 30px) / 3);
+margin-left: 30px;
+
+}
+
+/* .section-information-item:last-child{
+    margin-right: 0;
+}
+   */
+.section-icon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.section-information-type {
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -288,14 +522,12 @@ ul,ol, li, p, h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.06em;
 }
 
-.section-work-text {
+.section-information-text {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1,87;
     letter-spacing: 0.03em;
 }
-
-
 
 
 
