@@ -39,8 +39,7 @@ img {
 
 .header {
     /* outline: 2px red; */
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
     border-bottom: 1px solid #ECECEC
 }
 
@@ -107,9 +106,9 @@ img {
 
 
 .site-nav .link {
-
     
-
+   
+    padding-top: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -185,16 +184,18 @@ img {
 
 }
 
-.button {
+.button-hero {
+    padding: 10px 32px 10px 32px;
     font-family: inherit;
     background-color: var(--accent-color);
     color: var(--primary-backgroung-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    border-radius: 4px;
 }
 
-.button {
+.button-hero {
     cursor: pointer;
 }
 
@@ -442,9 +443,6 @@ padding-bottom: 60px;
     color: var(--accent-color);
 }
 
-.section-network-item {
-    margin-bottom: 9px;
-}
 
 
 
@@ -467,32 +465,44 @@ padding-bottom: 60px;
 }
 
 
+
+
+
 .section-button-item {
     margin-right: 8px;
-    padding: 6px 22px 6px 22px;
+
     background: var(--secondary-background-color);
-    border-radius: 4px;
+    
     
 }
 
+.btn-portfolio {
 
-.section-button-main {
-    padding: 0;
-    font-family: inherit;
-    color: var(--title-text-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    border: none; 
-    background: transparent;
+padding: 6px 22px 6px 22px;
+font-family: inherit;
+color: var(--title-text-color);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+border: none;
+background: transparent;
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+
 }
 
 
-.section-button-main:hover,
-.section-button-main:focus {
+
+
+
+.btn-portfolio:hover,
+.sbtn-portfolio:focus {
     color: var(--primary-backgroung-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
